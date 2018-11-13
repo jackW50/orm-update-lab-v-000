@@ -49,7 +49,7 @@ class Student
   end 
   
   def self.new_from_db(array)
-    array.map do |row|
+    array.each do |row|
       
   end 
 end
