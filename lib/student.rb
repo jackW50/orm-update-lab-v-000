@@ -48,8 +48,8 @@ class Student
     end 
   end 
   
-  def self.new_from_db(row)
-    sql =<<-SQL
-        
-    SQL
+  def self.new_from_db(array)
+    array.map do |row|
+      
+  end 
 end
