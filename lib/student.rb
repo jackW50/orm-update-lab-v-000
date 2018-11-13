@@ -26,4 +26,6 @@ class Student
     sql = "DROP TABLE students"
     
     DB[:conn].execute(sql)
+  end 
+  
 end
