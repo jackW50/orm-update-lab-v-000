@@ -46,4 +46,5 @@ class Student
     self.new(name, grade). tap do |song|
       song.save
     end 
+  end 
 end
