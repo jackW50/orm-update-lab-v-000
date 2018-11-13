@@ -59,7 +59,7 @@ class Student
         WHERE students.name = ?
     SQL
     
-    self.new_from_db(DB[:conn].execute(sql, name))
+    self.new_from_db(DB[:conn].execute(sql, name).flatten)
   end
     
   def update 
