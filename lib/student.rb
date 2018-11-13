@@ -50,6 +50,7 @@ class Student
   
   def self.new_from_db(array)
     array.each do |row|
-      
+      self.new(row[1], row[2], row[0])
+    end 
   end 
 end
