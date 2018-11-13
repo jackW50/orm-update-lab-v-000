@@ -47,4 +47,9 @@ class Student
       song.save
     end 
   end 
+  
+  def self.new_from_db(row)
+    sql =<<-SQL
+        
+    SQL
 end
